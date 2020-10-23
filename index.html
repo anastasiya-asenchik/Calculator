@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+<main class="main">
+    <div class="calculator">
+        <div class="calculator__output">
+            <input id="display" disabled class="output" value="0" type="text" name="" placeholder="0">
+        </div>
+        <div class="calculator__buttons">
+            <div class="calculator__row">
+                <button id="square" class="button number" type="button">√</button>
+                <button id="ce" class="clear-button button" type="button">ce</button>
+                <button id="c" class="clear-button button" type="button">c</button>
+                <button class="operator button" type="button">/</button>
+            </div>
+            <div class="calculator__row">
+                <button class="number button" type="button">7</button>
+                <button class="number button" type="button">8</button>
+                <button class="number button" type="button">9</button>
+                <button class="operator button" type="button">*</button>
+            </div>
+            <div class="calculator__row">
+                <button class="number button" type="button">4</button>
+                <button class="number button" type="button">5</button>
+                <button class="number button" type="button">6</button>
+                <button id="minus" class="number operator button" type="button">-</button>
+            </div>
+            <div class="calculator__row">
+                <button class="number button" type="button">1</button>
+                <button class="number button" type="button">2</button>
+                <button class="number button" type="button">3</button>
+                <button class="operator button" type="button">+</button>
+            </div>
+            <div class="calculator__row">
+                <button id="exponent" class="number button" type="button">^</button>
+                <button class="number button" type="button">0</button>
+                <button class="number button" type="button">.</button>
+                <button id="result" class="button button-equal" type="button">=</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="hint">
+        <p>hint:</p>
+        <p>√25 = 5;</p>
+        <p>-√25 = -5;</p>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
